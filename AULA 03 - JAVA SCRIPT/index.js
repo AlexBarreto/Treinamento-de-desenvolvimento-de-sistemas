@@ -1,4 +1,4 @@
-
+/*
 let sobrenome = "Simões"; //String
 let numeroInteiro = 1; // Int
 let numeros = 1.2 // float
@@ -19,7 +19,7 @@ console.log(numeroFlot);
 
 
 
-/*
+
 
 Number = Para números, icluindo números inteiros e números de ponto flutuante
 String = Para sequência de caracteres
@@ -35,7 +35,7 @@ push = adiciona um valor na ultima posição do array
 pop = retira um valor na ultima posição do array
 concat = Junta 2 arrays distintos
 
-*/
+
 
 let arr = ["Alex", 1 , "1", [numeroInteiro], sobrenome];
 
@@ -52,7 +52,7 @@ const endereco = "Rua exemplo";
 var nome = "Alan";
 
 
-
+*/
 
 function exemplo(param1, param2)
 {
@@ -63,6 +63,8 @@ function exemplo(param1, param2)
     console.log("Nome completo: " + nome + sobrenome + " | Endereço: " + endereco)
 
 }
+
+//exemplo();
 
 
 
