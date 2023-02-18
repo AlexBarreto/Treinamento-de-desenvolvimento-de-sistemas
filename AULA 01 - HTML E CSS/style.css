@@ -1,0 +1,87 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html, body 
+{
+    height: 100%;
+}
+
+
+.mt-15{
+    margin-top: 15px;
+}
+
+
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: rgb(79, 167, 148);
+}
+
+h4{
+    color: rgb(9, 53, 32);
+}
+
+.meustyleH
+{
+    color:blueviolet
+}
+
+#meuIdH6
+{
+    color: aquamarine;
+}
+
+.box-form-exemplo{
+
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+
+.input-group{
+    width: 33%;
+    padding: 10px;
+}
+
+.input-group input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid blue;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.center{
+
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #fff;
+    
+}

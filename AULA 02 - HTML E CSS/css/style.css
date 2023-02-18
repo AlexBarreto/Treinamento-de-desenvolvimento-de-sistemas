@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    width: 100%; 
+    height: 400px; 
+    display: flex; 
+    justify-content: center; 
+    border: 4px solid#ccc; 
+    margin-top: 100px;
+    align-items: center;
+
+}
+.item {
+    width: 200px; 
+    height: 200px; 
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-d-none{
+    width: 200px; 
+    height: 200px; 
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: all 1s ease;
+}
+
+.item-d-none:hover{
+    transform: matrix(1.5,0,0,1.5,0,0);
+}
+
+/*
+    rotate(360g)
+    scale(0.5)
+    skew(20deg)
+    translateY(px)
+    translateX(px)
+*/
+
+.shadow-box
+{
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-blue{
+    background-color: blue;
+}
+.roudend{
+    border-radius: 10px;
+}
+.text-white{
+    color: white;
+}
+.fs-15px{
+    font-size: 30px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+
+.bg-red:hover{
+    background-color: aqua;
+}
+
+.btn-dropdown{
+    width: 120px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(21, 194, 194);
+    border: none;
+}
+.btn-dropdown i{
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.box-dropdown{
+    border: 1px solid #ccc;
+    width: 120px;
+    position: absolute;
+    padding: 10px;
+    background-color: #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+.box-dropdown ul{
+    list-style-type: none;
+}
+
+.position-relative{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+
+    .bg-orange{
+        background-color: rgb(255, 0, 191);
+    }
+
+    .center{
+
+        display: block;
+        height: auto; 
+        padding: 10px;
+    
+    }
+
+    .item-d-none{
+        display: none;
+    }
+
+    .item {
+        width: 200px; 
+        height: 200px; 
+        border: 1px solid #ccc;
+        margin-top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 400px){
+
+    .bg-orange{
+        background-color: rgb(255, 0, 191);
+    }
+
+    .center{
+
+        display: block;
+        height: auto; 
+        padding: 10px;
+    
+    }
+
+    .item {
+        width: 200px; 
+        height: 200px; 
+        border: 1px solid #ccc;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
